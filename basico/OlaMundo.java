@@ -25,12 +25,16 @@ public class OlaMundo {
 		
 		System.out.printf("Nome: %s \n Endereço: %s \n Cep: %s Numero: %s", nome, End, cep, num);
 		*/
+		int n1=2;
+		int n2=3;
+		String numero=n1>n2?"número 1 é maior":"número 2 é maior";
 		System.out.printf("1 – Tenha um sono regular.\n"
 				+ "2 – Pratique exercícios.\r\n"
 				+ "3 – Separe algumas horas do seu dia para o estudo.\r\n"
 				+ "4 – Aplique o método POMODORO.\r\n"
 				+ "5 – Desenvolva projetos.\r\n"
 				+ "");
+		System.out.println(numero);
 	}
 
 }
